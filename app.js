@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-
+const port = process.env.PORT || 3002;
 const data = [
   { id: 1, name: "murat", age: 32 },
   { id: 2, name: "ahmet", age: 32 },
